@@ -29,7 +29,7 @@ RSpec.describe "Scorer" do
     end
     describe ".calculate_score_from_file" do
       it "is an instance method that uses file_to_array and calculate_score_from_array to get the correct score from the file" do
-        expect(scorer.calculate_score_from_file).to eq(952)
+        expect(scorer.calculate_score_from_file).to eq("There are 5 names which gives a score of 952")
       end
     end
 
