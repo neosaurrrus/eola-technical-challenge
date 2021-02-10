@@ -2,20 +2,23 @@
 RSpec.describe "Scorer" do
 
     before do
-        @scorer = Scorer.new("names.txt")
+       scorer = Scorer.new("test.txt")
     end
     
     describe ".initialize" do
-        it "is an initialization method that puts out a greeting to the user" do
-          expect do Scorer.new("names")
-          end.to output("Welcome to Name Scorer\n").to_stdout
+
+        scorer = Scorer.new('test.txt')
+
+        it "is an initialization method that outputs a greeting" do
+          expect do(Scorer.new("test"))end.to output("Welcome to Name Scorer\n").to_stdout
         end
 
-        # it "is an initialization method that contains a file path" do
-        #   expect (scorer).to 
-     
-        # end
+        it "contains a file path" do
+          expect(scorer.path).to eq("test.txt")
+        end
     end
+
+    
 
 
 
