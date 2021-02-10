@@ -27,6 +27,6 @@ class Scorer
 
     def calculate_score_from_file
       self.file_to_array
-      self.calculate_score_from_array
+      "There are #{@names.size} names which gives a score of #{self.calculate_score_from_array}"
     end
 end
