@@ -1,18 +1,18 @@
 
 RSpec.describe "Scorer" do
 
- 
-    
+  scorer = Scorer.new('test_names.txt')
+  puts Dir.pwd
     describe ".initialize" do
 
-        scorer = Scorer.new('test.txt')
+       
 
         it "is an initialization method that outputs a greeting" do
           expect do(Scorer.new("test"))end.to output("Welcome to Name Scorer\n").to_stdout
         end
 
         it "contains a file path" do
-          expect(scorer.path).to eq("test.txt")
+          expect(scorer.path).to eq("test_names.txt")
         end
     end
 
@@ -23,9 +23,9 @@ RSpec.describe "Scorer" do
     # end
 
     describe ".file_to_array" do
-      scorer = Scorer.new('test.txt')
-      it "is an instance method that opens the file referenced in path and produces an array" do
-        expect(scorer.file_to_array).to eq(["Hello"])
+
+      it "is an instance method that opens the file referenced in path and returns a string" do
+        expect(scorer.file_to_array).to eq(["MARY", "PATRICIA", "LINDA", "BARBARA", "ELIZABETH"])
       end
     end
 
