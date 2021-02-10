@@ -23,13 +23,12 @@ RSpec.describe "Scorer" do
     # end
 
     describe ".file_to_array" do
-
-      it "is an instance method that opens the file referenced in path and returns a string" do
-        expect(scorer.file_to_array).to eq(["MARY", "PATRICIA", "LINDA", "BARBARA", "ELIZABETH"])
+      it "is an instance method that opens the file referenced in path and returns a sorted array" do
+        expect(scorer.file_to_array).to eq(["BARBARA", "ELIZABETH", "LINDA", "MARY", "PATRICIA"])
       end
     end
 
-
+    
 
 
 end
