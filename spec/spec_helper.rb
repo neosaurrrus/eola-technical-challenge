@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "eola_technical_test"
-require_relative "../lib/welcome.rb"
+require_relative "../lib/eola_technical_test/scorer.rb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

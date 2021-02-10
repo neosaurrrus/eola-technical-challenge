@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require_relative "./eola_technical_test/cli"
+require_relative "./eola_technical_test/scorer"
 
 require_relative "eola_technical_test/version"
 
