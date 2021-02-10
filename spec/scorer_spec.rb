@@ -28,7 +28,13 @@ RSpec.describe "Scorer" do
       end
     end
 
-    
+    describe ".calculate_score" do
+      it "is an instance method that takes names array and calculates the correct score" do
+        expect(scorer.calculate_score).to eq(30)
+      end
+    end
+
+
 
 
 end
