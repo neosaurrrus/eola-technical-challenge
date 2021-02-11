@@ -13,3 +13,4 @@ require "eola_technical_test"
 
 require "irb"
 IRB.start(__FILE__)
+#!/usr/bin/env ruby
