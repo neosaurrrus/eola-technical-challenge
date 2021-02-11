@@ -26,7 +26,7 @@ If I didn't think it beyond the scope of the challenge, it would have been inter
 3. Jazz up the output, play around with extracting 'fun' facts such as highest scoring name.
 # Things I found Tricky
 
-Setting up a Ruby project- It has been a while since I had done non-Rails Ruby from scratch so it might be over engineered for the job it needed to do but I kept the functionality to easily produce a gem from it at a later stage.
+Setting up a Ruby project- It has been a while since I had done non-Rails Ruby from scratch so it might be over engineered for the job it needed to do but I kept the functionality to easily produce a gem from it at a later stage. In a similar vein, as it was a relatively simple problem I kept it to one class but arguably the File parser part could be a second class. Again, getting the right level of infrastucture is a head scratcher.
 
 Finding the right names, 'Scorer' is not the most helpful of class names!
 
