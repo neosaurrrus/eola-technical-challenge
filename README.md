@@ -13,7 +13,7 @@ Run the `eola_technical_test.rb` file found in Lib.
 
 Tests can be run with `bundle exec rspec`
 
-## Things I enjoyed
+## Things I Enjoyed
 
 Building the Scorer class with the different methods, it was very satisfying building the separate functionalities and trying it up with a method that combines the two.
 
@@ -24,7 +24,7 @@ If I didn't think it beyond the scope of the challenge, it would have been inter
 1. Add steps to validate the input file is usable.
 2. Allow users to pick a different file if wanted.
 3. Jazz up the output, play around with extracting 'fun' facts such as highest scoring name.
-# Things I found tricky
+# Things I found Tricky
 
 Setting up a Ruby project- It has been a while since I had done non-Rails Ruby from scratch so it might be over engineered for the job it needed to do but I kept the functionality to easily produce a gem from it at a later stage.
 
