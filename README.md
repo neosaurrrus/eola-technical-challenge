@@ -4,35 +4,36 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
-## Installation
+This is a program that calculates the value of the provided names.txt file. This value is based on:
 
-Add this line to your application's Gemfile:
+- Sorting the names alphabetically
+- Determine the letter value of each name (e.g. BOB is 2 + 15 + 2  = 19) 
+- Multiplying the letter value by the the position it appears in the list. So if BOB appears 5th its total value would be 19 x 5.
 
-```ruby
-gem 'eola_technical_test'
-```
+# Things I found tricky
 
-And then execute:
+Setting up a Ruby project with testing from scratch - It has been a while since I had done non-Rails Ruby so it might be over engineered for the job it needed to do but kept the functionality to easily produce a gem from it at a later stage.
 
-    $ bundle install
+Finding the right names, 'Scorer' is not the most helpful of class names I admit!
 
-Or install it yourself as:
+# Things I enjoyed
 
-    $ gem install eola_technical_test
+Building the Scorer class with the different methods, it was very satisfying building the separate functionalities and trying it up with a method that combines the two.
+
+I have been getting more into TDD lately and imagining up and then writing out the tests in RSpec is a nice process.
 
 ## Usage
 
-TODO: Write usage instructions here
+Run the `eola_technical_test.rb` file found in Lib.
+
+Tests can be run with `bundle exec rspec`
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `bundle exec rspec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/eola_technical_test. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/eola_technical_test/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/neosaurrrus/eola_technical_test. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/neosaurrrus/eola_technical_test/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -40,4 +41,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the EolaTechnicalTest project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/eola_technical_test/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/neosaurrrus/eola_technical_test/blob/master/CODE_OF_CONDUCT.md).
